@@ -1,0 +1,777 @@
+/*
+	Rocket Internet by TEMPLATE STOCK
+    templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Typography CSS */
+body
+{
+    font-family: 'Lato', sans-serif;
+    color: #41484b;
+}
+
+
+
+/* Header */
+#homeFullScreen {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top center;
+}
+
+#homeFullScreen {
+    background-image: url('../images/header.jpg');
+    overflow: hidden;
+}
+
+#homeFullScreen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.header-text h1
+{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-text .vertical-line
+{
+    height: 2px;
+    background-color: #fff;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.header-text p
+{
+    font-size: 26px;
+    color: #fff;
+}
+
+
+/* feature */
+.feature img
+{
+    width: 100%;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.feature-box
+{
+    padding: 20px;
+}
+
+.feature-box h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-top: 2em;
+}
+
+.feature-box p
+{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Portfolio */
+.portfolio .heading
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.portfolio img
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.portfolio .last-img
+{
+    margin-bottom: 20px;
+}
+
+/* Call to Action */
+.call-top-action
+{
+    background-color: #42484c;
+    color: #fff;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.call-top-action h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin: 0px;
+}
+
+.call-top-action p
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.call-top-action span
+{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* wq0 */
+
+.wq0 {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* wq0-btn */
+.wq0-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* widgie */
+.widgie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.q0-btn {
+    border: none;
+    width: 10%;
+    height: 35px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 0 5px 0;
+}
+
+/* wq1 */
+.wq1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: medium;
+}
+
+/* nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    word-spacing: 10px;
+    background-color: white;
+    font-weight: 500;
+}
+
+nav > div h3 {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 0.4rem;
+}
+
+nav > div ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: medium;
+    color: black;
+}
+
+/* messages */
+
+.chat-messages {
+    margin-top: 50px;
+}
+
+.imessage {
+    background-color: #fff;
+    border: 1px solid #e5e5ea;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 0 3px 0;
+    color:#000;
+  }
+  
+  .imessage p {
+    border-radius: 1.15rem;
+    line-height: 1.25;
+    max-width: 75%;
+    padding: 0.5rem .875rem;
+    position: relative;
+    word-wrap: break-word;
+  }
+  
+  .imessage p::before,
+  .imessage p::after {
+    bottom: -0.1rem;
+    content: "";
+    height: 1rem;
+    position: absolute;
+  }
+  
+  p.from-me {
+    align-self: flex-end;
+    background-color: #248bf5;
+    color: #fff; 
+  }
+  
+  p.from-me::before {
+    border-bottom-left-radius: 0.8rem 0.7rem;
+    border-right: 1rem solid #248bf5;
+    right: -0.35rem;
+    transform: translate(0, -0.1rem);
+  }
+  
+  p.from-me::after {
+    background-color: #fff;
+    border-bottom-left-radius: 0.5rem;
+    right: -40px;
+    transform:translate(-30px, -2px);
+    width: 10px;
+  }
+  
+  p[class^="from-"] {
+    margin: 0.5rem 0;
+    width: fit-content;
+  }
+  
+  p.from-me ~ p.from-me {
+    margin: 0.25rem 0 0;
+  }
+  
+  p.from-me ~ p.from-me:not(:last-child) {
+    margin: 0.25rem 0 0;
+  }
+  
+  p.from-me ~ p.from-me:last-child {
+    margin-bottom: 0.5rem;
+  }
+  
+  p.from-them {
+    align-items: flex-start;
+    background-color: #e5e5ea;
+    color: #000;
+  }
+  
+  p.from-them:before {
+    border-bottom-right-radius: 0.8rem 0.7rem;
+    border-left: 1rem solid #e5e5ea;
+    left: -0.35rem;
+    transform: translate(0, -0.1rem);
+  }
+  
+  p.from-them::after {
+    background-color: #fff;
+    border-bottom-right-radius: 0.5rem;
+    left: 20px;
+    transform: translate(-30px, -2px);
+    width: 10px;
+  }
+  
+  p[class^="from-"].emoji {
+    background: none;
+    font-size: 2.5rem;
+  }
+  
+  p[class^="from-"].emoji::before {
+    content: none;
+  }
+  
+
+/* wq2-qq */
+.wq2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    width: 90%;
+    
+}
+
+.wq21 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 90%;
+    gap: 5px;
+    
+    
+}
+
+.wq2-qq {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0;
+    width: 15%;
+    text-align: center;
+    color:black;
+}
+
+.wq2-qq1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 3px 0;
+    width: 32%;
+    height: 200px;
+    text-align: center;
+    color:black;
+    
+}
+
+/* wq-1 */
+.wq-1 {
+    width: 90%;
+    margin: 30px auto;
+    color:#000;
+    display:flex;
+    flex-direction: column;
+}
+
+.wq-11 {
+    display:flex;
+    margin-top: 20px;
+}
+.rer {
+    position: relative;
+    top: 10px;
+    
+}
+/* Footer */
+footer
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul
+{
+    padding: 0px;
+    list-style: none;
+    margin: 20px;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer ul li a span
+{
+    width: 50px;
+    height: 50px;
+    background: #42484C;
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+footer .copyright
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+
+/* Extra Small devices  */
+@media (max-width: 480px) {
+	
+}
+
+/* Extra Small devices  */
+@media (max-width: 767px) {
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .header-text .vertical-line {        
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .feature-box {
+        padding: 0px;
+    }
+
+    .feature-box h1 {
+        font-size: 25px;
+        margin-top: 2em;
+    }
+
+    .feature-box p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .nopadding {
+        padding: 15px !important;
+        margin: 0 !important;
+    }
+
+    .portfolio img {        
+        margin-bottom: 15px;
+    }
+
+    .call-top-action h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+        margin-bottom: 15px !important;
+        margin: 0px;
+    }
+
+    .call-top-action p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .call-top-action span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    footer ul li a span {
+        width: 40px;
+        height: 40px;
+        background: #42484C;
+        display: block;
+        font-size: 22px;
+        line-height: 40px;
+        color: #fff;
+        border-radius: 50%;
+    }
+
+    footer .copyright {
+        font-size: 16px;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+    .header-text h1 {
+        font-size: 45px;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .feature-box h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 1em;
+    }
+	
+    .feature-box p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .call-top-action h1 {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-bottom: 13px !important;
+        margin: 0px;
+    }
+
+    .call-top-action p {
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+
+    .call-top-action span {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 23px;
+    }
+
+    footer ul li a span {
+        width: 40px;
+        height: 40px;
+        background: #42484C;
+        display: block;
+        font-size: 22px;
+        line-height: 40px;
+        color: #fff;
+        border-radius: 50%;
+    }   
+
+    footer .copyright {
+        font-size: 18px;
+    }
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .feature-box {
+        padding: 10px;
+    }
+
+    .feature-box h1 {
+        font-size: 30px;    
+    }
+
+    .feature-box p {
+        font-size: 20px;
+    }
+
+    .call-top-action p
+    {
+        font-size: 19px;
+    }
+
+    .call-top-action h1 {
+        font-size: 30px;
+       margin-bottom: 15px !important;
+    }
+
+    .call-top-action span {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Typography CSS */
+body
+{
+    font-family: 'Lato', sans-serif;
+    color: #41484b;
+}
+
+/* Header */
+#homeFullScreen {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: top center;
+}
+
+#homeFullScreen {
+    background-image: url('../images/header.jpg');
+    overflow: hidden;
+}
+
+#homeFullScreen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.header-text h1
+{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-text .vertical-line
+{
+    height: 2px;
+    background-color: #fff;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.header-text p
+{
+    font-size: 26px;
+    color: #fff;
+}
+
+
+/* feature */
+.feature img
+{
+    width: 100%;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.feature-box
+{
+    padding: 20px;
+}
+
+.feature-box h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;   
+    margin-top: 2em;
+}
+
+.feature-box p
+{
+    font-size: 25px;
+    text-align: justify;
+}
+
+/* Portfolio */
+.portfolio .heading
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.portfolio img
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.portfolio .last-img
+{
+    margin-bottom: 20px;
+}
+
+/* Call to Action */
+.call-top-action
+{
+    background-color: #42484c;
+    color: #fff;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.call-top-action h1
+{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin: 0px;
+}
+
+.call-top-action p
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.call-top-action span
+{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer ul
+{
+    padding: 0px;
+    list-style: none;
+    margin: 20px;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer ul li a span
+{
+    width: 50px;
+    height: 50px;
+    background: #42484C;
+    display: block;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+footer .copyright
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+}
